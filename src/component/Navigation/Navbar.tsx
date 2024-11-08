@@ -86,7 +86,7 @@ const Index = () => {
           }) : null}
           </div>
           <div>
-            <Link to="/user" > Hi {userInfo.user.name}</Link>
+            <Link to="/user" className=" text-green " > Hi {userInfo.user.name}</Link>
             <p>{userInfo.user.email} </p>
           </div>
 
